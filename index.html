@@ -3,17 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz App</title>
- <link rel="stylesheet" href="css/style.css">
+  <title>Quiz about coffee</title>
+ <link rel="stylesheet" href="assets/css/style.css">
 
   </style>
 </head>
 <body>
-<div>
+<div class="quiz-container">
+    <h1>3 quick coffee questions! </h1>
+    <p id="question">Question 1: What is the capital of France?</p>
+    <label>
+        <input type="radio" name="answer1" value="A"> A) London<br>
+    </label>
+    <label>
+        <input type="radio" name="answer1" value="B"> B) Berlin<br>
+    </label>
+    <label>
+        <input type="radio" name="answer1" value="C"> C) Paris<br>
+    </label>
+    <label>
+        <input type="radio" name="answer1" value="D"> D) Madrid<br>
+    </label>
+    <br>
+    <p id="question">Question 2: Which country is famous for its coffee production?</p>
+    <label>
+        <input type="radio" name="answer2" value="A"> A) Italy<br>
+    </label>
+    <label>
+        <input type="radio" name="answer2" value="B"> B) Brazil<br>
+    </label>
+    <label>
+        <input type="radio" name="answer2" value="C"> C) France<br>
+    </label>
+    <label>
+        <input type="radio" name="answer2" value="D"> D) Japan<br>
+    </label>
+    <br>
+    
+    <p id="question">Question 3: Which type of coffee is made by forcing hot water through finely-ground coffee beans?</p>
+    <label>
+        <input type="radio" name="answer3" value="A"> A) Cappuccino<br>
+    </label>
+    <label>
+        <input type="radio" name="answer3" value="B"> B) Espresso<br>
+    </label>
+    <label>
+        <input type="radio" name="answer3" value="C"> C) Latte<br>
+    </label>
+    <label>
+        <input type="radio" name="answer3" value="D"> D) Mocha<br>
+    </label>
+    <br>
 
 
-
+<button id="submit">Submit</button>
+<p id="result"></p>
 </div>
-<script src="js/script.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
