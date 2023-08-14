@@ -6,34 +6,52 @@ This is the Code Institute student template for Codeanywhere. If you are using G
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
 
-## Codeanywhere Reminders
+## Problems
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+I have in both my projects several issues when using codeanywhere. In this project I made several changes and made commits but nothing went back to Github. My first thought was to define alll the variables after detimening that I was going to use three questions with four different answers. Only one of these answers was going to be correct.
+After you pushed the submit button You would get your Score and the results of each Question.
+When you got a correct answer listed in the "const correctAnswers" this will add a point and add all the correct answers.
 
 `python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+It’s magic in a bottle!
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Features
 
-`http_server`
+    ⁃	__Existing features__
+    Navigation menu
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+This is on the main page and is responsive.
+It will allow you to go to the different sections on the page.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Features left to implement
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    ⁃	__Setting up pages as individuals__
+    ⁃	__Having another main image on homepage and with a transparency box with test inside.__## Sketching & Prototyping
 
-To log into the Heroku toolbelt CLI:
+[Sketch pdf](https://foxyfirecode.com/PO01/sketches.pdf)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Testing
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    ⁃	__ I have used preview in all the common webb browsers and checked them with different screen sizes.__
+    ⁃	__I ran into problem with the fist sketch when I try to implement it in html and css code. My solution was to simplify it and bring it down to basics but still maintaining the same goals with the project.__
 
----
+## Validator
 
-Happy coding!
+- **HTML** - No errors when validation the code but issues when getting link to work from GitHub to validation. Copied the code directly instead.
+- **CSS** - No errors when validation the code but issues when getting link to work from GitHub to validation. Copied the code directly instead.
+
+## Deployment
+
+[Github](https://github.com/JezzieCode/CoffeeQuestions.git)
+
+## Credits
+
+Content:
+
+
+Media:
+
+- [Free image] (https://www.wallpaperflare.com/germany-waldstetten-zitrone-glas-ananas-blatter-water-wallpaper-eodql/download/2880x1800)
+
+- [Free sound] (https://freesound.org/people/Pogotron/sounds/65498/)
